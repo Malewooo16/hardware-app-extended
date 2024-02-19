@@ -1,0 +1,40 @@
+.detailed_product {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.productOptions{
+    display:flex;
+    width: 450px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.buyNow{
+    background-color: yellow;
+    color:black;
+    border-color: rgb(208, 208, 8);
+}
+
+.addToCart{
+    background-color: orange;
+    border-color: rgb(184, 126, 18) ;
+}
+
+
+@media (max-width:400px){
+    .detailed_product p{
+        width: 350px;
+        
+    }
+
+    .productOptions{
+        display:flex;
+        width: 350px;
+        
+    }
+}

@@ -1,0 +1,83 @@
+
+  .homeProducts{
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: 60px;
+    height: 626px;
+   
+  }
+
+  .specialProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding:40px 10px ;
+  }
+
+ 
+ .specialProduct h4{
+    text-align: center;
+ }
+
+  .link{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+  } 
+
+ .todaysBestDeals{
+    margin-left: 60px;
+ }
+
+ .addToCart{
+  background-color: orange;
+  border-color: rgb(184, 126, 18) ;
+  margin-bottom: 20px;
+}
+
+
+
+
+@media (max-width:1020px){
+  .homeProducts{
+    display: flex;
+    margin-left: 8px;
+    height: 590px;
+  }
+
+  .addToCart span{
+    display: none;
+  }
+}
+
+@media (max-width:825px){
+  .homeProducts{
+    display: flex;
+    margin-left: 8px;
+    height: 648px;
+  }
+
+  .todaysBestDeals{
+    margin-left: 20px;
+ }
+}
+
+@media (max-width:400px){
+  .homeProducts{
+    display: flex;
+    margin-left: 8px;
+    height: auto;
+  }
+
+  .addToCart span{
+    display: none;
+  }
+
+  .todaysBestDeals{
+    margin-left: 10px;
+ }
+
+}

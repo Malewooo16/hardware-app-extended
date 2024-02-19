@@ -1,0 +1,11 @@
+.addToCart{
+    background-color: orange;
+    border-color: rgb(184, 126, 18) ;
+    margin-bottom: 20px;
+}
+
+.discount {
+    background-color: red;
+    
+    margin-bottom: 20px;
+}
